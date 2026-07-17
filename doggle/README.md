@@ -1,16 +1,42 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Food Ordering Website
 
-Currently, two official plugins are available:
+A full-stack Food Ordering Website built using React, Node.js, Express, MongoDB, and Firebase Authentication.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- User Authentication (Signup/Login)
+- Browse Food Items
+- Search Food Items
+- Add to Cart
+- Order Placement
+- Order Tracking
+- Admin Dashboard
+- Restaurant Management
+- Responsive UI
+- Firebase Authentication
+- MongoDB Database
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
+- React.js
+- Vite
+- React Router
+- CSS
+- Firebase Authentication
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
+
+
+
+
+
+
+
+
+
