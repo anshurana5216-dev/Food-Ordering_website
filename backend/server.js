@@ -11,7 +11,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://food-ordering-website-vh1d-2iydggxnk-tanshu366-4674s-projects.vercel.app",
+     "https://food-ordering-website-seven-woad.vercel.app",
       "http://localhost:5173",
     ],
     credentials: true,
