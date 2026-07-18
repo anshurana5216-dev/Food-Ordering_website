@@ -8,15 +8,13 @@ const connectDB = require("./confi/db");
 const app = express();
 
 // CORS
-app.use(
-  cors({
+app.use(cors({
     origin: [
-     "https://food-ordering-website-seven-woad.vercel.app",
-      "http://localhost:5173",
+        "http://localhost:5173",
+        "https://food-ordering-website-pi-five.vercel.app"
     ],
-    credentials: true,
-  })
-);
+    credentials: true
+}));
 // Middleware
 app.use(express.json());
 
