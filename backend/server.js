@@ -11,13 +11,12 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://food-ordering-website-fidh-eok3ozbph-tanshu366-4674s-projects.vercel.app",
+      "https://food-ordering-website-vh1d-2iydggxnk-tanshu366-4674s-projects.vercel.app",
       "http://localhost:5173",
     ],
     credentials: true,
   })
 );
-
 // Middleware
 app.use(express.json());
 
