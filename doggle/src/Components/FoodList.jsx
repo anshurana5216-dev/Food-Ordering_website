@@ -10,8 +10,9 @@ function FoodList({ selectedCategory, selectedBrand }) {
 
 
   useEffect(() => {
-    axios
-      .get("http://localhost:5000/api/foods")
+   axios.get(
+ `${import.meta.env.VITE_API_URL}/api/foods`
+)
       .then((response) => {
         setFoods(response.data);
       })
