@@ -7,9 +7,9 @@ import Signup from "../Pages/Signup/Signup";
 import Location from "../Components/location/Location";
 import AddFood from "../Pages/Admin/AddFood";
 import Cart from "../Pages/Cart/Cart";
-import Payment from "../pages/Payment/Payment";
-import OrderSuccess from "../pages/OrderSuccess";
-import TrackOrder from "../pages/TrackOrder";
+import Payment from "../Pages/Payment/Payment";
+import OrderSuccess from "../Pages/OrderSuccess";
+import TrackOrder from "../Pages/TrackOrder";
 
 
 function AppRoutes({ cart, setCart }) {
