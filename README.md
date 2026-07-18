@@ -90,7 +90,7 @@ npm start
 Backend runs on:
 
 ```bash
-http://localhost:5000
+https://food-ordering-website-y3pj.onrender.com
 ```
 
 ---
