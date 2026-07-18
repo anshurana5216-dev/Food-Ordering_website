@@ -7,8 +7,18 @@ const connectDB = require("./confi/db");
 
 const app = express();
 
+// CORS
+app.use(
+  cors({
+    origin: [
+      "https://food-ordering-website-fidh-eok3ozbph-tanshu366-4674s-projects.vercel.app",
+      "http://localhost:5173",
+    ],
+    credentials: true,
+  })
+);
+
 // Middleware
-app.use(cors());
 app.use(express.json());
 
 // Connect Database
